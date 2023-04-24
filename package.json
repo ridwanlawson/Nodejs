@@ -1,26 +1,19 @@
 {
-  "name": "landlord",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Landlord is the application for selling land or property",
-  "main": "main.js",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ridwanlawson/Nodejs.git"
-  },
-  "author": "Ridwan Lawson",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ridwanlawson/Nodejs/issues"
-  },
-  "homepage": "https://github.com/ridwanlawson/Nodejs#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.1"
   }
 }

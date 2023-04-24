@@ -1,0 +1,30 @@
+GET http://localhost:5000/users
+
+
+###
+GET http://localhost:5000/users/1
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Ujang Tayab",
+    "email": "ujang@gmail.com",
+    "gender": "male"
+}
+
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "name": "Dajang Tayab",
+    "email": "dajang@gmail.com",
+    "gender": "female"
+}
+
+###
+DELETE http://localhost:5000/users/1
